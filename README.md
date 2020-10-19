@@ -1,9 +1,13 @@
 # wyzesense2mqtt
 
-https://github.com/raetha/wyzesense2mqtt/issues/38#issuecomment-686837295
+Currently running [wyzesense2mqtt](https://github.com/raetha/wyzesense2mqtt) on the Pi 3B using the [Linux Systemd method](https://github.com/raetha/wyzesense2mqtt#linux-systemd). Pi3B is also running Deconz, which hosts the Conbee II USB Zigbee coordinator.
 
-# Files are located in:
-```/opt/wyzesense2mqtt``` 
+
+Initially had some issues getting set up -  resolved via [this thread](https://github.com/raetha/wyzesense2mqtt/issues/38#issuecomment-686837295) and another issue [here](https://github.com/raetha/wyzesense2mqtt/issues/46).
+
+
+# Files are located here, nav via:
+```cd /opt/wyzesense2mqtt``` 
 
 ## Reload before starting
 ```sudo systemctl daemon-reload```
