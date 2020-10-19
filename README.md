@@ -1,4 +1,4 @@
-# wyzesense2mqtt
+# WyzeSense2mqtt
 
 Currently running [wyzesense2mqtt](https://github.com/raetha/wyzesense2mqtt) on the Pi 3B using the [Linux Systemd method](https://github.com/raetha/wyzesense2mqtt#linux-systemd). Pi3B is also running Deconz, which hosts the Conbee II USB Zigbee coordinator.
 
@@ -6,7 +6,7 @@ Currently running [wyzesense2mqtt](https://github.com/raetha/wyzesense2mqtt) on 
 Initially had some issues getting set up -  resolved via [this thread](https://github.com/raetha/wyzesense2mqtt/issues/38#issuecomment-686837295) and another issue [here](https://github.com/raetha/wyzesense2mqtt/issues/46).
 
 
-# Files are located here, nav via:
+## Files are located here, nav via:
 ```cd /opt/wyzesense2mqtt``` 
 
 ## Reload before starting
@@ -18,7 +18,7 @@ Initially had some issues getting set up -  resolved via [this thread](https://g
 ## Check service
 ```sudo systemctl status wyzesense2mqtt```
 
-# Run tool
+## Run tool
 ```sudo python3 bridge_tool_cli.py --device /dev/hidraw0```
 - L - List paired sensors
 - P - Pair new sensors
