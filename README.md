@@ -9,6 +9,13 @@ Initially had some issues getting set up -  resolved via [this thread](https://g
 ## Files are located here, nav via:
 ```cd /opt/wyzesense2mqtt``` 
 
+## Enable once, will start on boot:
+```sudo systemctl enable wyzesense2mqtt.service```
+
+## Enable once, will start on boot:
+```sudo systemctl disable wyzesense2mqtt.service```
+
+
 ## Reload before starting
 ```sudo systemctl daemon-reload```
 
