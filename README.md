@@ -26,7 +26,7 @@ Initially had some issues getting set up -  resolved via [this thread](https://g
 ```sudo systemctl status wyzesense2mqtt```
 
 ## Run tool
-```sudo python3 bridge_tool_cli.py --device /dev/hidraw0```
+```sudo python3 /opt/wyzesense2mqtt/bridge_tool_cli.py --device /dev/hidraw0```
 - L - List paired sensors
 - P - Pair new sensors
 - U <mac> - Unpair sensor
